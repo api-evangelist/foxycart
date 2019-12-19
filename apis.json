@@ -1,0 +1,88 @@
+{
+    "name": "FoxyCart",
+    "description": "<p>FoxyCart is a hosted PCI compliant e-commerce platform built to empower web developers and designers with a powerful and flexible platform with which to add e-commerce functionality to existing systems. It's not an all-in-one system with an integrated CMS, CRM, email marketing system, or anything else. We've chosen flexibility over bloat, power over features, and built the most flexible and streamlined cart and checkout system available.&nbsp;<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/6339-foxycart.jpg",
+    "tags": [
+        "api lifeycle",
+        "api provider",
+        "commerce",
+        "have api",
+        "hypermedia api",
+        "shopping cart",
+        "target"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/foxycart\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "FoxyCart",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/6339-foxycart.jpg",
+            "humanURL": "https:\/\/www.foxy.io\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": []
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/*.foxycart.com\/api"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/www.foxy.io\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds.feedburner.com\/foxycart"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/wiki.foxycart.com\/"
+        },
+        {
+            "type": "Email",
+            "url": "hello@foxycart.com"
+        },
+        {
+            "type": "Email",
+            "url": "hello@foxy.io"
+        },
+        {
+            "type": "Email",
+            "url": "support+privacy@foxy.io"
+        },
+        {
+            "type": "Email",
+            "url": "help+privacy@foxy.io"
+        },
+        {
+            "type": "Email",
+            "url": "security@foxycart.com"
+        },
+        {
+            "type": "Email",
+            "url": "helpdesk@foxycart.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/FoxyCart"
+        },
+        {
+            "type": "Pricing",
+            "url": "http:\/\/www.foxycart.com\/pricing-signup"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/foxy_io"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.foxy.io\/"
+        }
+    ]
+}
