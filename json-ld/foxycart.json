@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Foxy.io",
+  "alternateName": "FoxyCart",
+  "description": "Foxy.io (formerly FoxyCart) is a developer-focused shopping cart and e-commerce platform providing a hosted hypermedia REST API (hAPI) for managing products, customers, subscriptions, transactions, and order workflows.",
+  "url": "https://www.foxy.io/",
+  "applicationCategory": "E-Commerce",
+  "applicationSubCategory": [
+    "Shopping Cart",
+    "Subscription Management",
+    "Payment Processing"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.foxy.io/pricing/"
+  },
+  "maintainer": {
+    "@type": "Organization",
+    "name": "Foxy.io",
+    "url": "https://www.foxy.io/",
+    "sameAs": [
+      "https://github.com/Foxy",
+      "https://www.linkedin.com/company/foxycart.com",
+      "https://x.com/foxycart"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "url": "https://www.foxy.io/contact",
+      "contactType": "customer support"
+    }
+  },
+  "softwareVersion": "2.0",
+  "featureList": [
+    "Hypermedia REST API (HATEOAS)",
+    "OAuth 2.0 Authentication",
+    "100+ Payment Gateway Integrations",
+    "Subscription Management",
+    "Digital Product Delivery",
+    "Customer Management",
+    "Coupon and Discount Engine",
+    "Webhook Support",
+    "Sandbox Environment",
+    "Single Sign-On (SSO)"
+  ],
+  "hasAPI": {
+    "@type": "WebAPI",
+    "name": "Foxy hAPI",
+    "description": "The Foxy Hypermedia API (hAPI) is a RESTful hypermedia API implementing HATEOAS design, giving developers complete control over Foxy store accounts.",
+    "documentation": "https://api.foxycart.com/docs",
+    "endpointURL": "https://api.foxycart.com",
+    "termsOfService": "https://www.foxy.io/terms",
+    "inLanguage": "en",
+    "serviceType": "REST Hypermedia API"
+  },
+  "sameAs": [
+    "https://github.com/Foxy",
+    "https://www.linkedin.com/company/foxycart.com",
+    "https://x.com/foxycart",
+    "https://status.foxy.io/"
+  ]
+}

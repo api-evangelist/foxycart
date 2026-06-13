@@ -1,0 +1,63 @@
+{
+  "provider": "foxycart",
+  "source": "https://www.foxy.io/blog/",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Leveling Up Webstudio with Foxy Commerce: Our New Demo Store",
+      "url": "https://www.foxy.io/blog/leveling-up-webstudio-with-foxy-commerce-our-new-demo-store/",
+      "date": "2026-05-09",
+      "categories": ["How To", "Product Updates"],
+      "description": "Build a powerful, customizable storefront with our new Foxy Commerce + Webstudio demo store and tutorials."
+    },
+    {
+      "title": "Unlock Deeper Ecommerce Insights With Foxy + Humblytics",
+      "url": "https://www.foxy.io/blog/unlock-deeper-ecommerce-insights-with-foxy-and-humblytics/",
+      "date": "2025-10-21",
+      "categories": ["How To", "Product Updates"],
+      "description": "Cutting-edge, privacy-compliant analytics for Foxy sales with Humblytics."
+    },
+    {
+      "title": "AI Ecommerce with Foxy + Lovable",
+      "url": "https://www.foxy.io/blog/ai-ecommerce-with-foxy-lovable/",
+      "date": "2025-09-12",
+      "categories": ["How To", "Product Updates"],
+      "description": "Use AI prompts with Foxy and Lovable to build simple to complex ecommerce in minutes."
+    },
+    {
+      "title": "Build Product Configurators With ConvertCalculator + Foxy",
+      "url": "https://www.foxy.io/blog/build-product-configurators-with-convertcalculator-foxy/",
+      "date": "2025-09-03",
+      "categories": ["How To", "Product Updates"],
+      "description": "Add powerful ecommerce functionality to your ConvertCalculator forms with Foxy."
+    },
+    {
+      "title": "Add Secure Ecommerce to Divhunt Websites",
+      "url": "https://www.foxy.io/blog/add-secure-ecommerce-to-divhunt-websites/",
+      "date": "2025-08-22",
+      "categories": ["How To", "Product Updates"],
+      "description": "Easily add secure ecommerce to your Divhunt website. Sell one or multiple products using Divhunt's CMS and form builder."
+    },
+    {
+      "title": "July 2025 Product Roundup",
+      "url": "https://www.foxy.io/blog/july-2025-product-roundup/",
+      "date": "2025-08-08",
+      "categories": ["Product Updates"],
+      "description": "July was a busy month with new integrations, admin improvements, and helpful blog posts."
+    },
+    {
+      "title": "Secure Ecommerce For Webstudio",
+      "url": "https://www.foxy.io/blog/secure-ecommerce-for-webstudio-websites/",
+      "date": "2025-07-25",
+      "categories": ["How To", "Product Updates"],
+      "description": "Add powerful, secure ecommerce to your Webstudio website with Foxy."
+    },
+    {
+      "title": "Small Tech, Big Impact: Why Foxy is Different",
+      "url": "https://www.foxy.io/blog/small-tech-big-impact-why-foxy-is-different/",
+      "date": "2025-07-15",
+      "categories": ["Culture"],
+      "description": "From day one, we've committed to being a small tech company, building a solid platform that is centered around people over profits."
+    }
+  ]
+}
