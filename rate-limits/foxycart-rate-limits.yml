@@ -1,0 +1,32 @@
+name: Foxy.io API Rate Limits
+description: Rate limit information for the Foxy.io hypermedia REST API (hAPI)
+url: https://api.foxycart.com/docs
+notes: >
+  Foxy.io does not publicly document specific API rate limits in their developer
+  documentation. The API is a hypermedia-driven RESTful API (hAPI) with HATEOAS
+  design. Contact Foxy support for details on rate limiting policies, especially
+  for high-volume or Enterprise tier usage.
+
+pagination:
+  default_limit: 20
+  max_limit: 300
+  max_zoom_total: 300
+  description: >
+    Results are paginated with a default of 20 items per page. The limit
+    parameter controls results per page (max 300). The zoom parameter
+    for embedded resources has a combined maximum of 300 total records.
+
+environments:
+  - name: Production
+    base_url: https://api.foxycart.com
+  - name: Sandbox
+    base_url: https://api-sandbox.foxycart.com
+    description: Use the sandbox environment for development and testing without affecting live data
+
+token_limits:
+  access_token_ttl_seconds: 7200
+  access_token_ttl_description: Access tokens expire after 2 hours
+  refresh_token_ttl_seconds: 315360000
+  refresh_token_ttl_description: Refresh tokens expire after approximately 10 years
+  refresh_token_reissue: false
+  refresh_token_reissue_note: Refresh tokens are not reissued with each access token request

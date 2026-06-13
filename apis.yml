@@ -1,0 +1,85 @@
+aid: foxycart
+name: Foxy.io
+description: >
+  Foxy.io (formerly FoxyCart) is a developer-focused shopping cart and e-commerce
+  platform providing a hosted hypermedia REST API (hAPI) for managing products,
+  customers, subscriptions, transactions, and order workflows. The platform supports
+  physical products, digital goods, subscriptions, donations, and services, and
+  integrates with 100+ payment gateways including Stripe, PayPal, and Square.
+  The API uses HATEOAS design with OAuth 2.0 authentication and has processed
+  over $3 billion in transactions globally.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/foxycart/refs/heads/main/apis.yml
+created: "2026-06-13"
+modified: "2026-06-13"
+specificationVersion: "0.19"
+tags:
+  - E-Commerce
+  - Shopping Cart
+  - Subscriptions
+  - Payments
+  - Transactions
+  - Customers
+  - Digital Products
+apis:
+  - aid: foxycart:foxycart-hapi
+    name: Foxy hAPI
+    description: >
+      The Foxy Hypermedia API (hAPI) is a RESTful hypermedia API implementing
+      HATEOAS design, giving developers complete control over Foxy store accounts.
+      Supports managing stores, customers, transactions, subscriptions, coupons,
+      shipping, payment methods, templates, and webhooks. Provides both production
+      and sandbox environments.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://api.foxycart.com/docs
+    baseURL: https://api.foxycart.com
+    tags:
+      - E-Commerce
+      - Shopping Cart
+      - Subscriptions
+      - Transactions
+      - Customers
+      - Hypermedia
+      - HATEOAS
+    properties:
+      - type: Documentation
+        url: https://api.foxycart.com/docs
+      - type: OpenAPI
+        url: https://api.foxycart.com/rels
+      - type: Authentication
+        url: https://api.foxycart.com/docs/authentication
+      - type: CheatSheet
+        url: https://api.foxycart.com/docs/cheat-sheet
+      - type: Sandbox
+        url: https://api-sandbox.foxycart.com
+      - type: SDK
+        url: https://github.com/Foxy/foxy-sdk
+    contact:
+      - FN: Foxy Support
+        url: https://www.foxy.io/contact
+common:
+  - type: Website
+    url: https://www.foxy.io/
+  - type: Documentation
+    url: https://wiki.foxycart.com/v/2.0/
+  - type: GitHubOrg
+    url: https://github.com/Foxy
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/foxycart.com
+  - type: Blog
+    url: https://www.foxy.io/blog/
+  - type: Pricing
+    url: https://www.foxy.io/pricing/
+  - type: StatusPage
+    url: https://status.foxy.io/
+  - type: X
+    url: https://x.com/foxycart
+  - type: Plans
+    url: plans/foxycart-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/foxycart-rate-limits.yml
+  - type: FinOps
+    url: finops/foxycart-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -1,0 +1,79 @@
+name: Foxy.io Plans and Pricing
+description: Subscription plans for Foxy.io e-commerce platform covering hosted cart, checkout, and API access
+url: https://www.foxy.io/pricing/
+plans:
+  - name: Starter
+    description: Entry-level plan for small businesses and developers starting with Foxy.io
+    price: 35
+    unit: month
+    currency: USD
+    transactions_included: 100
+    transaction_overage: 0.35
+    features:
+      - Hosted cart and checkout
+      - Unlimited products and subscriptions
+      - Basic template customization
+      - Single Sign-On (SSO)
+      - User portal with transaction history
+      - Automation workflows (1,000+ app connections)
+      - Physical, digital, custom products, donations, bookings, memberships, event tickets, services
+      - Email support
+    api_access: true
+
+  - name: Growth
+    description: Mid-tier plan for growing merchants needing advanced features and higher transaction volume
+    price: 75
+    unit: month
+    currency: USD
+    transactions_included: 500
+    transaction_overage: 0.25
+    features:
+      - Everything in Starter
+      - Advanced template customization
+      - Multilingual support
+      - Multi-currency support
+      - Custom tax endpoint
+      - Single Sign-On (SSO)
+      - Email support
+    api_access: true
+
+  - name: Advanced
+    description: High-volume plan for established merchants requiring enterprise-grade features and support
+    price: 350
+    unit: month
+    currency: USD
+    transactions_included: 1000
+    transaction_overage: 0.075
+    features:
+      - Everything in Growth
+      - Advanced template customization
+      - SSO via SAML
+      - Pre-cart webhook
+      - Dedicated onboarding
+      - Customer and subscription migration assistance
+      - Email, phone, and Slack support
+    api_access: true
+
+  - name: Enterprise
+    description: Custom enterprise plan for high-volume merchants requiring custom integrations, SLAs, and dedicated support
+    price: 2250
+    price_suffix: +
+    unit: month
+    currency: USD
+    transactions_included: 10000
+    transaction_overage: 0.05
+    features:
+      - Everything in Advanced
+      - Advanced customization options
+      - Custom integrations
+      - Custom Terms of Service
+      - Custom SLA
+      - Failover infrastructure
+      - High-volume processing
+      - Priority support with dedicated Slack channel
+    api_access: true
+
+transaction_fee_note: >
+  Transaction fees are 1% of sale amount, with a minimum of 5 cents.
+  The maximum per-transaction fee depends on plan tier (35 cents for Starter,
+  25 cents for Growth, 7.5 cents for Advanced, 5 cents for Enterprise).

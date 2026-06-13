@@ -1,0 +1,54 @@
+name: Foxy.io FinOps
+description: Financial operations guidance for managing costs with the Foxy.io e-commerce platform API
+url: https://www.foxy.io/pricing/
+
+cost_model:
+  type: subscription_plus_usage
+  description: >
+    Foxy.io uses a hybrid subscription and usage-based model. Monthly subscription fees
+    cover a base number of transactions, with per-transaction overage fees applied beyond
+    the included allotment. Transaction fees are capped at a percentage-based maximum
+    that decreases at higher plan tiers, incentivizing upgrades for high-volume merchants.
+
+transaction_fee_structure:
+  model: percentage_with_cap
+  rate: 0.01
+  rate_description: 1% of transaction sale amount
+  minimum_fee_cents: 5
+  plan_caps:
+    starter: 35
+    growth: 25
+    advanced: 7.5
+    enterprise: 5
+  cap_unit: cents
+  cap_description: Maximum per-transaction fee in cents varies by plan tier
+
+cost_optimization:
+  - tip: Monitor monthly transaction volume to determine if upgrading plans reduces total cost
+    detail: >
+      At high transaction volumes, the reduced per-transaction overage rate on higher
+      tiers can offset the higher subscription cost. For example, 1,000 transactions/month
+      on Starter at 35 cents overage vs included in Advanced plan.
+  - tip: Use the sandbox environment for all development and testing
+    detail: >
+      Development and testing against https://api-sandbox.foxycart.com avoids
+      consuming production transaction counts or incurring real payment processing fees.
+  - tip: Batch API requests using zoom parameter to reduce total API calls
+    detail: >
+      The zoom parameter allows embedding related resources in a single API response
+      (up to 300 total records), reducing round trips and API call overhead.
+  - tip: Evaluate transaction fee caps at scale
+    detail: >
+      Because the transaction fee is capped at 1% of sale, high-value transactions
+      (above $35 on Starter, $25 on Growth, $7.50 on Advanced) benefit from the cap.
+      Low-value transactions under $0.50 are subject to the 5-cent minimum floor.
+  - tip: Use webhooks for event-driven integration instead of polling
+    detail: >
+      Foxy.io supports transaction and subscription webhooks. Using webhooks instead
+      of polling the API reduces unnecessary API calls and associated overhead.
+
+billing_controls:
+  transaction_tracking: true
+  transaction_tracking_note: Monitor included transaction counts via the Foxy admin dashboard
+  overage_alerts: Contact Foxy support to discuss overage alert options
+  annual_billing: Contact Foxy sales for Enterprise annual billing options
