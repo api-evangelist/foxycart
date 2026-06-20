@@ -8,7 +8,7 @@ description: >
   integrates with 100+ payment gateways including Stripe, PayPal, and Square.
   The API uses HATEOAS design with OAuth 2.0 authentication and has processed
   over $3 billion in transactions globally.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/foxycart/refs/heads/main/apis.yml
 created: "2026-06-13"
 modified: "2026-06-13"
@@ -30,7 +30,7 @@ apis:
       Supports managing stores, customers, transactions, subscriptions, coupons,
       shipping, payment methods, templates, and webhooks. Provides both production
       and sandbox environments.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://api.foxycart.com/docs
     baseURL: https://api.foxycart.com
     tags:
