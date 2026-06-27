@@ -52,7 +52,7 @@ apis:
         url: https://api.foxycart.com/docs/cheat-sheet
       - type: Sandbox
         url: https://api-sandbox.foxycart.com
-      - type: SDK
+      - type: SDKs
         url: https://github.com/Foxy/foxy-sdk
     contact:
       - FN: Foxy Support
