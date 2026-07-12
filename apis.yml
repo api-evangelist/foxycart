@@ -58,6 +58,8 @@ apis:
       - FN: Foxy Support
         url: https://www.foxy.io/contact
 common:
+  - type: DomainSecurity
+    url: security/foxycart-domain-security.yml
   - type: Website
     url: https://www.foxy.io/
   - type: Documentation
