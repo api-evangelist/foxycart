@@ -28,6 +28,14 @@ specificationVersion: '0.23'
 tags:
   - E-Commerce
   - Shopping Cart
+  - Subscription
+  - Payments
+  - Transaction
+  - Customers
+  - Digital Products
+tags_raw:
+  - E-Commerce
+  - Shopping Cart
   - Subscriptions
   - Payments
   - Transactions
@@ -46,6 +54,14 @@ apis:
     humanURL: https://api.foxycart.com/docs
     baseURL: https://api.foxycart.com
     tags:
+      - E-Commerce
+      - Shopping Cart
+      - Subscription
+      - Transaction
+      - Customers
+      - Hypermedia
+      - HATEOAS
+    tags_raw:
       - E-Commerce
       - Shopping Cart
       - Subscriptions
