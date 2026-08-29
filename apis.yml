@@ -8,6 +8,17 @@ description: >
   integrates with 100+ payment gateways including Stripe, PayPal, and Square.
   The API uses HATEOAS design with OAuth 2.0 authentication and has processed
   over $3 billion in transactions globally.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
