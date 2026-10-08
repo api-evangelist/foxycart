@@ -81,3 +81,39 @@ transaction_fee_note: >
   Transaction fees are 1% of sale amount, with a minimum of 5 cents.
   The maximum per-transaction fee depends on plan tier (35 cents for Starter,
   25 cents for Growth, 7.5 cents for Advanced, 5 cents for Enterprise).
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units:
+  - period
+  plans:
+  - name: Starter
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Growth
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Advanced
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Enterprise
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
