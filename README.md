@@ -1,4 +1,4 @@
-# Foxy.io (FoxyCart)
+# Foxy.io
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,22 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Foxy.io is a developer-focused shopping cart and e-commerce platform providing a hosted hypermedia REST API for managing products, customers, subscriptions, transactions, and order workflows. The platform has processed over $3 billion in transactions globally and supports integration with 100+ payment gateways.
+Foxy.io (formerly FoxyCart) is a developer-focused shopping cart and e-commerce platform providing a hosted hypermedia REST API (hAPI) for managing products, customers, subscriptions, transactions, and order workflows. The platform supports physical products, digital goods, subscriptions, donations, and services, and integrates with 100+ payment gateways including Stripe, PayPal, and Square. The API uses HATEOAS design with OAuth 2.0 authentication and has processed over $3 billion in transactions globally.
 
-## API
+**Areas:** E-Commerce · Shopping Cart · Subscription · Payments · Transaction · Customers · Digital Products
 
-The Foxy Hypermedia API (hAPI) is a RESTful API implementing HATEOAS (Hypermedia as The Engine of Application State) design, providing loose coupling between client and server. It supports complete control over all aspects of a Foxy store.
+## Foxy.io on APIs.io
 
-- **Documentation:** https://api.foxycart.com/docs
-- **Base URL:** https://api.foxycart.com
-- **Sandbox:** https://api-sandbox.foxycart.com
-- **Authentication:** OAuth 2.0 with Bearer tokens
+Everything profiled for Foxy.io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/foxycart/](https://apis.io/providers/foxycart/)** — or go straight to one of the APIs or properties below.
 
-## Links
+### APIs (1)
 
-- **Website:** https://www.foxy.io/
-- **Developer Docs:** https://wiki.foxycart.com/v/2.0/
-- **GitHub:** https://github.com/Foxy
-- **Pricing:** https://www.foxy.io/pricing/
-- **Status:** https://status.foxy.io/
-- **Blog:** https://www.foxy.io/blog/
+- [Foxy hAPI](https://apis.io/apis/foxycart/foxycart-hapi/) — The Foxy Hypermedia API (hAPI) is a RESTful hypermedia API implementing HATEOAS design, giving developers complete control over Foxy store accounts.…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Foxycart Domain Security](https://apis.io/security/foxycart/foxycart-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Foxycart Plans Pricing](https://apis.io/plans/foxycart/foxycart-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Foxycart Rate Limits](https://apis.io/rate-limits/foxycart/foxycart-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Foxycart Finops](https://apis.io/finops/foxycart/foxycart-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.foxy.io/)
+- [Documentation](https://wiki.foxycart.com/v/2.0/)
+- [Pricing](https://www.foxy.io/pricing/)
+- [Blog](https://www.foxy.io/blog/)
+- [Status](https://status.foxy.io/)
+
+## API Evangelist rating
+
+**Kin Score 24.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 34.5 |
+| Access clarity | 18.4 |
+
+**Agent readiness 16.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.7** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/foxycart/](https://apis.io/providers/foxycart/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Foxy.io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/foxycart/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
